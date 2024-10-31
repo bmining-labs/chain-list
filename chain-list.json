@@ -1,0 +1,210 @@
+[
+  {
+    "chain": "bitcoin",
+    "chainId": -1,
+    "name": "Bitcoin",
+    "icon_url": "https://static.arkhamintelligence.com/chains/bitcoin.png",
+    "explorers": [
+      {
+        "name": "Blockchain.com",
+        "url": "https://www.blockchain.com/explorer/assets/btc",
+        "tx_url": "https://www.blockchain.com/explorer/transactions/btc/{{tx_id}}",
+        "address_url": "https://www.blockchain.com/explorer/addresses/btc/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "chainId": 1,
+    "name": "Ethereum",
+    "icon_url": "https://static.arkhamintelligence.com/chains/ethereum.png",
+    "explorers": [
+      {
+        "name": "Etherscan",
+        "url": "https://etherscan.io",
+        "tx_url": "https://etherscan.io/tx/{{tx_id}}",
+        "address_url": "https://etherscan.io/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "bnb",
+    "chainId": 56,
+    "name": "BNB",
+    "icon_url": "https://static.arkhamintelligence.com/chains/bsc.png",
+    "explorers": [
+      {
+        "name": "BSCScan",
+        "url": "https://bscscan.com/",
+        "tx_url": "https://bscscan.com/tx/{{tx_id}}",
+        "address_url": "https://bscscan.com/address/{{address}}"
+      },
+      {
+        "name": "BSCTrace",
+        "url": "https://bsctrace.com/",
+        "tx_url": "https://bsctrace.com/tx/{{tx_id}}",
+        "address_url": "https://bsctrace.com/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "solana",
+    "chainId": -1,
+    "name": "Solana",
+    "icon_url": "https://static.arkhamintelligence.com/chains/solana.png",
+    "explorers": [
+      {
+        "name": "Solana Explorer",
+        "url": "https://explorer.solana.com/",
+        "tx_url": "https://explorer.solana.com/{{tx_id}}",
+        "address_url": "https://explorer.solana.com/address/{{address}}"
+      },
+      {
+        "name": "Solscan",
+        "url": "https://solscan.io/",
+        "tx_url": "https://solscan.io/tx/{{tx_id}}",
+        "address_url": "https://solscan.io/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "dogecoin",
+    "chainId": -1,
+    "name": "Dogecoin",
+    "icon_url": "https://static.arkhamintelligence.com/chains/dogecoin.png",
+    "explorers": [
+      {
+        "name": "Dogechain",
+        "url": "https://dogechain.info/",
+        "tx_url": "https://dogechain.info/tx/{{tx_id}}",
+        "address_url": "https://dogechain.info/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "bitcoincash",
+    "chainId": -1,
+    "name": "Bitcoin Cash",
+    "icon_url": "https://static.arkhamintelligence.com/chains/bitcoincash.png",
+    "explorers": [
+      {
+        "name": "Blockchain.com",
+        "url": "https://www.blockchain.com/explorer/assets/bch",
+        "tx_url": "https://www.blockchain.com/explorer/transactions/bch/{{tx_id}}",
+        "address_url": "https://www.blockchain.com/explorer/addresses/bch/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "ton",
+    "chainId": -1,
+    "name": "TON",
+    "icon_url": "https://static.arkhamintelligence.com/chains/ton.png",
+    "explorers": [
+      {
+        "name": "Tronscan",
+        "url": "https://tonscan.org/",
+        "tx_url": "https://tonscan.org/tx/{{tx_id}}",
+        "address_url": "https://tonscan.org/address/{{address}}"
+      }
+    ] 
+  },
+  {
+    "chain": "polygon",
+    "chainId": 137,
+    "name": "Polygon",
+    "icon_url": "https://static.arkhamintelligence.com/chains/polygon.png",
+    "explorers": [
+      {
+        "name": "Polygonscan",
+        "url": "https://polygonscan.com/",
+        "tx_url": "https://polygonscan.com/tx/{{tx_id}}",
+        "address_url": "https://polygonscan.com/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "avalanche",
+    "chainId": 43114,
+    "name": "Avalanche",
+    "icon_url": "https://static.arkhamintelligence.com/chains/avalanche.png",
+    "explorers": [
+      {
+        "name": "Avalanche Explorer",
+        "url": "https://snowtrace.io/",
+        "tx_url": "https://snowtrace.io/tx/{{tx_id}}",
+        "address_url": "https://snowtrace.io/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "arbitrum",
+    "chainId": 42161,
+    "name": "Arbitrum",
+    "icon_url": "https://static.arkhamintelligence.com/chains/arbitrum.png",
+    "explorers": [
+      {
+        "name": "Arbitrum Explorer",
+        "url": "https://arbiscan.io/",
+        "tx_url": "https://arbiscan.io/tx/{{tx_id}}",
+        "address_url": "https://arbiscan.io/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "optimism",
+    "chainId": 10,
+    "name": "Optimism",
+    "icon_url": "https://static.arkhamintelligence.com/chains/optimism.png",
+    "explorers": [
+      {
+        "name": "Optimism Explorer",
+        "url": "https://optimistic.etherscan.io/",
+        "tx_url": "https://optimistic.etherscan.io/tx/{{tx_id}}",
+        "address_url": "https://optimistic.etherscan.io/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "base",
+    "chainId": 8453,
+    "name": "Base",
+    "icon_url": "https://static.arkhamintelligence.com/chains/base.png",
+    "explorers": [
+      {
+        "name": "BaseScan",
+        "url": "https://basescan.org/",
+        "tx_url": "https://basescan.org/tx/{{tx_id}}",
+        "address_url": "https://basescan.org/address/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "sui",
+    "chainId": -1,
+    "name": "Sui",
+    "icon_url": "https://static.arkhamintelligence.com/chains/sui.png",
+    "explorers": [
+      {
+        "name": "Sui Universe",
+        "url": "https://suiscan.xyz/",
+        "tx_url": "https://suiscan.xyz/mainnet/tx/{{tx_id}}",
+        "address_url": "https://suiscan.xyz/mainnet/account/{{address}}"
+      }
+    ]
+  },
+  {
+    "chain": "aptos",
+    "chainId": -1,
+    "name": "Aptos",
+    "icon_url": "https://static.arkhamintelligence.com/chains/aptos.png",
+    "explorers": [
+      {
+        "name": "Aptos Explorer",
+        "url": "https://explorer.aptoslabs.com/",
+        "tx_url": "https://explorer.aptoslabs.com/tx/{{tx_id}}",
+        "address_url": "https://explorer.aptoslabs.com/account/{{address}}"
+      }
+    ]
+  }
+]
