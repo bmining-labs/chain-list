@@ -49,7 +49,7 @@
   },
   {
     "chain": "solana",
-    "chainId": -1,
+    "chainId": 101,
     "name": "Solana",
     "icon_url": "https://static.arkhamintelligence.com/chains/solana.png",
     "explorers": [
