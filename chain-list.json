@@ -124,20 +124,6 @@
     ]
   },
   {
-    "chain": "avalanche",
-    "chainId": 43114,
-    "name": "Avalanche",
-    "icon_url": "https://static.arkhamintelligence.com/chains/avalanche.png",
-    "explorers": [
-      {
-        "name": "Avalanche Explorer",
-        "url": "https://snowtrace.io/",
-        "tx_url": "https://snowtrace.io/tx/{{tx_id}}",
-        "address_url": "https://snowtrace.io/address/{{address}}"
-      }
-    ]
-  },
-  {
     "chain": "arbitrum",
     "chainId": 42161,
     "name": "Arbitrum",
