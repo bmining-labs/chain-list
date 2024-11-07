@@ -68,34 +68,6 @@
     ]
   },
   {
-    "chain": "dogecoin",
-    "chainId": -1,
-    "name": "Dogecoin",
-    "icon_url": "https://static.arkhamintelligence.com/chains/dogecoin.png",
-    "explorers": [
-      {
-        "name": "Dogechain",
-        "url": "https://dogechain.info/",
-        "tx_url": "https://dogechain.info/tx/{{tx_id}}",
-        "address_url": "https://dogechain.info/address/{{address}}"
-      }
-    ]
-  },
-  {
-    "chain": "bitcoincash",
-    "chainId": -1,
-    "name": "Bitcoin Cash",
-    "icon_url": "https://static.arkhamintelligence.com/chains/bitcoincash.png",
-    "explorers": [
-      {
-        "name": "Blockchain.com",
-        "url": "https://www.blockchain.com/explorer/assets/bch",
-        "tx_url": "https://www.blockchain.com/explorer/transactions/bch/{{tx_id}}",
-        "address_url": "https://www.blockchain.com/explorer/addresses/bch/{{address}}"
-      }
-    ]
-  },
-  {
     "chain": "ton",
     "chainId": -1,
     "name": "TON",
@@ -127,7 +99,7 @@
     "chain": "arbitrum",
     "chainId": 42161,
     "name": "Arbitrum",
-    "icon_url": "https://static.arkhamintelligence.com/chains/arbitrum.png",
+    "icon_url": "https://static.arkhamintelligence.com/chains/arbitrum_one.png",
     "explorers": [
       {
         "name": "Arbitrum Explorer",
@@ -169,7 +141,7 @@
     "chain": "sui",
     "chainId": -1,
     "name": "Sui",
-    "icon_url": "https://static.arkhamintelligence.com/chains/sui.png",
+    "icon_url": "https://assets.coingecko.com/coins/images/26375/standard/sui-ocean-square.png?1727791290",
     "explorers": [
       {
         "name": "Sui Universe",
@@ -183,7 +155,7 @@
     "chain": "aptos",
     "chainId": -1,
     "name": "Aptos",
-    "icon_url": "https://static.arkhamintelligence.com/chains/aptos.png",
+    "icon_url": "https://assets.coingecko.com/coins/images/26455/standard/aptos_round.png?1696525528",
     "explorers": [
       {
         "name": "Aptos Explorer",
